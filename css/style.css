@@ -1035,13 +1035,13 @@ color: #2D2B5C;
 }
 
 .footer__body {
-    position: relative;
     padding-top: 85px;
     margin: 0 auto;
     background: #1A1930;
     height: 430px;
 }
 .about__body {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 20% 20% 20%;
 }
@@ -1085,8 +1085,8 @@ color: #2D2B5C;
 .little-spital {
     position: absolute;
     z-index: 1;
-    top: -50px;
-    left: 1300px;
+    top: -150px;
+    left: 1150px;
 }
 .line1 {
     margin: 40px 0;
