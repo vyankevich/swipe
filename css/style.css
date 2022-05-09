@@ -899,6 +899,12 @@ color: #2D2B5C;
     top: -200px;
     left: -100px;
 }
+.blue-circle__img {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 1000px;
+}
 .recommend {
     display: inline-block;
     width: 459px;
