@@ -2,13 +2,14 @@
 <html lang="ru">
 
 <head>
-    <title>gaming</title>
+    <title>Swipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 </head>
 
 <body>
@@ -292,7 +293,7 @@
             <div class="container">
                 <div class="team-title__body">
                     <div class="team__title section-title__font">Meet the team <br> Want to join?</div>
-                    <div>
+                    <div class="join-see__buttons">
                         <button class="join-us__button">Join us</button>
                         <button class="see-all__button">See all openings</button>
                     </div>
@@ -506,15 +507,40 @@
                     In social media
                     <div><button class="go-to-inst__button">Go to Instagram</button></div>
                 </div>
-                <div class="social-img-body">
-                    <div class="img1"> <img src="../swipe/img/img1.png" alt=""></div>
-                    <div class="img2"> <img src="../swipe/img/img2.png" alt=""></div>
-                    <div class="img3"> <img src="../swipe/img/img3.png" alt=""></div>
-                    <div class="img4"> <img src="../swipe/img/img4.png" alt=""></div>
-                    <div class="img5"> <img src="../swipe/img/img5.png" alt=""></div>
+                <div class="image-slider swiper">
+                    <div class="image-slider__wrapper swiper-wrapper">
+                        <div class="image-slider__slide swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="../swipe/img/img1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="../swipe/img/img2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="../swipe/img/img3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="../swipe/img/img4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="../swipe/img/img5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>
+
     </main>
     <footer class="footer">
         <div class="footer__body">
@@ -583,6 +609,7 @@
         </div>
     </footer>
     </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../swipe/js/script.js"></script>
 </body>

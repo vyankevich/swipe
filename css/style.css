@@ -29,7 +29,6 @@ aside {
 html,
 body {
     height: 100%;
-    width: 100%;
     font-size: 100%;
     line-height: 1;
     -ms-text-size-adjust: 100%;
@@ -97,6 +96,7 @@ body {
 }
 .container {
     max-width: 1300px;
+    min-width: 1300px;
     margin: 0 auto;
 }
 
@@ -648,6 +648,9 @@ color: #2D2B5C;
 }
 .team__title {
 }
+.join-see__buttons {
+    max-width: 370px;
+}
 .join-us__button {
     height: 60px;
     width: 139px;
@@ -774,6 +777,17 @@ color: #2D2B5C;
     width: 350px;
 }
 .person__photo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.person__photo img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 .social__icons {
     width: 200px;
@@ -1003,7 +1017,7 @@ color: #2D2B5C;
 .social__title {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 400px;
+    column-gap: 550px;
     align-items: center;
     padding-bottom: 80px;
 }
@@ -1024,22 +1038,41 @@ color: #2D2B5C;
 .go-to-inst__button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
 }
-.social-img-body {
-    display: grid;
-    grid-template-columns: repeat(5,auto);
-    column-gap: 20px;
+
+.image-slider {
 }
-.img1 {
+.swiper {
 }
-.img2 {
+.image-slider__wrapper { 
 }
-.img3 {
+.swiper-wrapper {
 }
-.img4 {
+.image-slider__slide {
+    text-align: center;
+
 }
-.img5 {
+.swiper-slide {
 }
 
+.image-slider__image {
+}
+.image-slider__image img {
+    width: 200px;
+    height: 200px;
+}
+.swiper-button-next {
+    padding-left: 100px;
+}
+.swiper-button-prev {
+    padding-right: 100px;
+    
+}
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
 .footer__body {
     padding-top: 85px;
     margin: 0 auto;
