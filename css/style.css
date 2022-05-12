@@ -211,7 +211,7 @@ body {
 .sponsors {
     padding: 70px 0 70px 0;
     background: #E7E5FF;
-    background-size: cover;
+    background-size: 100vh;
 }
 .container {
 }
@@ -1087,6 +1087,7 @@ color: #2D2B5C;
     padding-top: 85px;
     margin: 0 auto;
     background: #1A1930;
+    background-size: 100vh;
     height: 430px;
 }
 .about__body {

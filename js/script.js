@@ -11,20 +11,21 @@ new Swiper('.image-slider', {
         nextEl: '.swiper-button-next'
     },
     loop: true,
-    breakpoints: {
-        500: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-        },
-        1000: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-        },
-        1300: {
-            slidesPerView: 5,
-            spaceBetween: 10,
-        }
-    },
+    slidesPerView: 5
+    // breakpoints: {
+    //     500: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 10,
+    //     },
+    //     1000: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 10,
+    //     },
+    //     1300: {
+    //         slidesPerView: 5,
+    //         spaceBetween: 10,
+    //     }
+    // },
 });
 
 new Swiper('.press-slider', {
