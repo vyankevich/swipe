@@ -510,6 +510,7 @@ color: #2D2B5C;
     border: 1px solid #E7E5FF;
 }
 .reuse__body {
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
