@@ -12,12 +12,12 @@ new Swiper('.image-slider', {
     },
     loop: true,
     breakpoints: {
-        700: {
+        500: {
             slidesPerView: 1,
             spaceBetween: 10,
         },
         1000: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 10,
         },
         1300: {
@@ -27,3 +27,9 @@ new Swiper('.image-slider', {
     },
 });
 
+new Swiper('.press-slider', {
+    spaceBetween: 50,
+    slidesPerView: 3,
+    loop: true,
+    initialSlide: 0
+})

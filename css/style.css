@@ -841,18 +841,12 @@ color: #2D2B5C;
 .view-more__button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
 }
-.press__body {
-}
-.press__items {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 70px;
-}
-.item {
-    width: 420px;
+
+.press-slider__slide {
+    max-width: 420px;
 }
 .press__img {
-    height: 314px;
+    
     width: 418px;
 }
 .must-read-new {
@@ -867,6 +861,7 @@ color: #2D2B5C;
     text-align: center;
 }
 .news__title {
+    max-width: 400px;
     font-size: 35px;
     line-height: 42px;
     color: #1A1930;
