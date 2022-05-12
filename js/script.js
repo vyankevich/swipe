@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.faq__title').click(function (event) {
+    $('.faq__titles').click(function (event) {
         $(this).toggleClass('active').next().slideToggle(300);
     });
 });

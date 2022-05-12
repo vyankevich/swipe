@@ -209,9 +209,9 @@ body {
     left: 550px;
 }
 .sponsors {
-    height: 100%;
     padding: 70px 0 70px 0;
     background: #E7E5FF;
+    background-size: cover;
 }
 .container {
 }
@@ -268,7 +268,7 @@ body {
     grid-template-columns: 50% 50%;
     justify-content: space-between;
 }
-.line {
+.numbers__line {
    display: inline-block;
    position: absolute;
    z-index: -1;
@@ -459,9 +459,11 @@ color: #2D2B5C;
 }
 .section-title__font {
 }
-.line {
-}
-.technologies__span {
+
+.technologies__line {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #E7E5FF;
 }
 .understand__body {
     display: grid;
@@ -491,7 +493,10 @@ color: #2D2B5C;
 }
 .reuse__title {
 }
-.reuse__span {
+.reuse__line {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #E7E5FF;
 }
 .reuse__body {
     display: grid;
@@ -517,7 +522,10 @@ color: #2D2B5C;
 }
 .line {
 }
-.reuse__span {
+.price__line {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #E7E5FF;
 }
 .yellow__washer {
     position: absolute;
@@ -721,20 +729,27 @@ color: #2D2B5C;
 .faq {
     margin-bottom: 20px;
 }
-.faq__title  {
+.faq__titles  {
     font-size: 44px;
     line-height: 50px;
     color: #2D2B5C;
     cursor: pointer;
 }
 .faq__text {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
     display: none;
     font-size: 30px;
     line-height: 42px;
     color: #2D2B5C
 }
+.line__faq {
+    margin: 40px 0 30px 0;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #E7E5FF;
 
+}
 .talk {
     margin-top: 100px;
     margin-bottom: 100px;
