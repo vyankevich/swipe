@@ -142,6 +142,9 @@ body {
     color: black;
     font-size: 18px;
 }
+.buy-button a{
+    color: black;
+}
 .buy-button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
 }
@@ -184,6 +187,9 @@ body {
     font-size: 18px;
     color: white;
     margin-bottom: 100px;
+}
+.demo-button a {
+    color: white;
 }
 .demo-button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
@@ -350,10 +356,15 @@ color: #2D2B5C;
     color: white;
     font-size: 18px;
 }
+.buy-button2 a {
+    color: white;
+}
 .buy-button2:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
 }
 .link {
+    font-size: 16px;
+    line-height: 22px;
     color: white;
 }
 .features__ability {
@@ -599,6 +610,8 @@ color: #2D2B5C;
     width: 139px;
     background: #6259EA;
     border-radius: 5px;
+}
+.buy-now__price-tag a {
     color: white;
     font-size: 16px;
     line-height: 22px;
@@ -669,6 +682,9 @@ color: #2D2B5C;
     line-height: 22px;
     margin-right: 20px;
 }
+.join-us__button a {
+    color: white;
+}
 .join-us__button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
 }
@@ -682,6 +698,9 @@ color: #2D2B5C;
     color: black;
     font-size: 16px;
     line-height: 22px;
+}
+.see-all__button am {
+    color: black;
 }
 .see-all__button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
@@ -728,6 +747,11 @@ color: #2D2B5C;
 }
 .faq {
     margin-bottom: 20px;
+}
+.arrow {
+    width: 35px;
+    height: 35px;
+    padding-top: 15px;
 }
 .faq__titles  {
     font-size: 44px;
@@ -848,11 +872,12 @@ color: #2D2B5C;
     height: 60px;
     background: #6259EA;
     border-radius: 5px;
+}
+.view-more__button a {
     color: white;
     font-size: 16px;
     line-height: 22px;
 }
-
 .view-more__button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
 }
@@ -951,7 +976,8 @@ color: #2D2B5C;
     color: #2D2B5C;
     padding-bottom: 11px;
 }
-.input__box {
+
+.name {
     box-sizing: border-box;
     height: 55px;
     width: 640px;
@@ -959,8 +985,6 @@ color: #2D2B5C;
     border: 2px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.3);
     border-radius: 8px;
-}
-.name {
     padding-left: 20px;
     font-size: 18px;
     line-height: 55px;
@@ -1040,10 +1064,11 @@ color: #2D2B5C;
     border: 2px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.3);
     border-radius: 5px;
+}
+.go-to-inst__button a {
+    color: black;
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
-    color: #1A1930;
 }
 .go-to-inst__button:hover {
     box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.8);
