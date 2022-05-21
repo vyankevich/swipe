@@ -97,9 +97,8 @@ body {
     background-color: none;
 }
 .container {
-    max-width: 1340px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .header__body {
@@ -1122,10 +1121,11 @@ color: #2D2B5C;
     background: #1A1930;
     background-size: 100vh;
     padding-top: 85px;
-}
-.footer__body {
     margin: 0 auto;
     height: 430px;
+    overflow-x:hidden;
+}
+.footer__body {
 }
 .about__body {
     position: relative;
