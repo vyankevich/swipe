@@ -91,13 +91,15 @@ body {
     font-weight: 400px;
     font-size: 16px;
 }
+.wrapper {
+}
 .header {
     background-color: none;
 }
 .container {
-    max-width: 1300px;
-    min-width: 1300px;
+    max-width: 1340px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header__body {
@@ -275,11 +277,11 @@ body {
     justify-content: space-between;
 }
 .numbers__line {
-   display: inline-block;
-   position: absolute;
-   z-index: -1;
-   width: 100%;
-   border: 1px solid #E7E5FF;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 100vh;
+    border: 1px solid #E7E5FF;
 }
 .happy-clients__body {
 
@@ -326,6 +328,13 @@ color: #2D2B5C;
 }
 .investments-received__text {
 
+}
+.numbers__line2 {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    border: 1px solid #E7E5FF;
 }
 .features {
     margin-top: 80px;
@@ -1109,11 +1118,13 @@ color: #2D2B5C;
     font-weight: bold;
     font-size: 30px;
 }
-.footer__body {
-    padding-top: 85px;
-    margin: 0 auto;
+.footer {
     background: #1A1930;
     background-size: 100vh;
+    padding-top: 85px;
+}
+.footer__body {
+    margin: 0 auto;
     height: 430px;
 }
 .about__body {
