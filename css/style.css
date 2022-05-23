@@ -171,10 +171,17 @@ body {
 }
 .main {
 }
-.start {
-
+.animation {
+    opacity: 0;
+    transform: translateY(13%);
 }
-
+.animation.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+}
+.start {
+}
 .business {
     margin-top: 140px;
     margin-bottom: 120px;
