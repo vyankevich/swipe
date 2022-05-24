@@ -47,4 +47,4 @@ let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.animation');
 for (let elm of elements) {
     observer.observe(elm);
-}
+};

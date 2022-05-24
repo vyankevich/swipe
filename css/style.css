@@ -109,11 +109,13 @@ body {
     font-weight: 400px;
     font-size: 16px;
 }
+
 .header {
     background-color: none;
 }
 .container {
     max-width: 1300px;
+    min-width: 1300px;
     margin: 0 auto;
 }
 
@@ -150,6 +152,9 @@ body {
     color: black;
 }
 .header__link:hover {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     color: #6259EA;
 }
 
@@ -832,12 +837,10 @@ color: #2D2B5C;
 }
 .talk__title {
     padding-bottom: 70px;
-    position: relative;
     z-index: 5;
 }
 .talk__body {
     position: relative;
-    z-index: 5;
     height: 560px;
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.4);
@@ -848,9 +851,9 @@ color: #2D2B5C;
 }
 .green-pyramid-alone__img {
     position: absolute;
-    z-index: -1;
-    top: -100px;
-    left: 0px;
+    z-index: -10;
+    top: -350px;
+    left: -180px;
 }
 .pink-pyramid-alone__img {
     position: absolute;
@@ -1185,6 +1188,13 @@ color: #2D2B5C;
     font-size: 18px;
     line-height: 25px;
     color: #FBFBFF;
+    opacity: 0.6;
+}
+.menu1__link:hover {
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .menu2__list li{
@@ -1195,6 +1205,13 @@ color: #2D2B5C;
     font-size: 18px;
     line-height: 25px;
     color: #FBFBFF;
+    opacity: 0.6;
+}
+.menu2__link:hover {
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 .menu3 {
 }
@@ -1205,6 +1222,13 @@ color: #2D2B5C;
     font-size: 18px;
     line-height: 25px;
     color: #FBFBFF;
+    opacity: 0.6;
+}
+.menu3__link:hover {
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 .little-spital {
     position: absolute;
