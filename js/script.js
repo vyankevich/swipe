@@ -77,5 +77,6 @@ function getFormValue(event) {
         email: email.value,
         message: message.value,
     }
+    form.reset();
     console.log(data);
 };
