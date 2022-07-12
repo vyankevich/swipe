@@ -3,7 +3,7 @@
 
 <head>
     <title>Swipe</title>
-    <meta name="viewport" content="width=device-width" , "initial-scale=1" , "maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__body">
@@ -47,6 +46,9 @@
                             </li>
                         </ul>
                     </nav>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
                     <button class="buy-button"><a href="">Buy now</a></button>
                 </div>
         </header>
@@ -89,9 +91,8 @@
                             <div class="pyramids__image animation"><img src="../swipe/img/pyramids.png" alt=""></div>
                         </div>
                         <div class="numbers__rightside">
-                            <span class="numbers__line"></span>
+                            <div class="numbers__line"></div>
                             <div class="happy-clients__body">
-
                                 <div class="happy__clients section-subtitle__font">Happy clients</div>
                                 <div class="happy-clients__text text__font">Lorem ipsum dolor sit amet, consectetur
                                     adipiscing
@@ -99,7 +100,7 @@
                             </div>
                             <div class="result__number">1000+</div>
                             <div class="products-created__body">
-                                <span class="numbers__line"></span>
+                                <div class="numbers__line"></div>
                                 <div class="products__created section-subtitle__font">Products created</div>
                                 <div class="products-created__text text__font">Lorem ipsum dolor sit amet, consectetur
                                     adipiscing
@@ -107,7 +108,7 @@
                             </div>
                             <div class="result__number">20+</div>
                             <div class="investments-received__body">
-                                <span class="numbers__line"></span>
+                                <div class="numbers__line"></div>
                                 <div class="investments__received section-subtitle__font">Investments received</div>
                                 <div class="investments-received__text text__font">Lorem ipsum dolor sit amet,
                                     consectetur
@@ -657,7 +658,6 @@
                 </div>
             </div>
         </footer>
-    </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../swipe/js/script.js"></script>
