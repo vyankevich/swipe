@@ -273,7 +273,7 @@ body {
 .sponsors {
     padding: 70px 0 70px 0;
     background: #E7E5FF;
-    background-size: 100vh;
+    background-size: 100vw;
 }
 .container {
 }
@@ -334,7 +334,7 @@ body {
     display: inline-block;
     position: absolute;
     z-index: -1;
-    width: 100vw;
+    width: 800px;
     border: 1px solid #E7E5FF;
 }
 .happy-clients__body {
@@ -385,7 +385,6 @@ color: #2D2B5C;
 }
 .numbers__line2 {
     display: inline-block;
-    position: absolute;
     z-index: -1;
     width: 100%;
     border: 1px solid #E7E5FF;
