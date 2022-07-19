@@ -524,14 +524,14 @@
                             <span class="support">Support service will contact you within 48 hours.</span>
                         </div>
 
-                        <form action="#" method="#" id="form__items">
+                        <form autocomplete="on" action="#" method="#" name="main" id="form__items">
                             <div class="form__item1">
                                 <div class="call__form">
                                     How can we call you?
                                 </div>
                                 <div>
-                                    <input type="text" class="name" name="name" onfocus="this.value=''"
-                                        value="Enter your name">
+                                    <input placeholder="Enter your name" type="text" class="name" name="nameInput"
+                                        value="">
                                 </div>
 
                             </div>
@@ -540,8 +540,8 @@
                                     How can we contact you?
                                 </div>
                                 <div>
-                                    <input type="email" class="email" name="email" onfocus="this.value=''"
-                                        value="Enter your email">
+                                    <input placeholder="Enter your email" type="email" class="email" name="emailInput"
+                                        value="">
                                 </div>
                             </div>
                             <div class="form__item3">
@@ -549,8 +549,8 @@
                                     How can we help you?
                                 </div>
                                 <div>
-                                    <input type="text" class="message" name="message" onfocus="this.value=''"
-                                        value="Enter your message">
+                                    <input placeholder="Enter your message" type="text" class="message" name="messageInput"
+                                        value="">
                                 </div>
                             </div>
                             <button type="submit" class="submit__button">Submit</button>

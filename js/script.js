@@ -69,9 +69,9 @@ const form = document.getElementById('form__items');
 form.addEventListener('submit', getFormValue);
 function getFormValue(event) {
     event.preventDefault();
-    const name = form.querySelector('[name="name"]'),
-        email = form.querySelector('[name="email"]'),
-        message = form.querySelector('[name="message"]');
+    const name = form.querySelector('[name="nameInput"]'),
+        email = form.querySelector('[name="emailInput"]'),
+        message = form.querySelector('[name="messageInput"]');
     const data = {
         name: name.value,
         email: email.value,
@@ -87,3 +87,16 @@ $(document).ready(function(){
         $('.body').toggleClass('lock');
     });
 });
+
+// const mainForm = document.forms.main;
+// const mainFormInput = mainForm.nameInput;
+
+// const mainFormInputPlaceholder = mainFormInput.placeholder;
+
+// mainFormInput.addEventListener("focus", function(){
+//     mainFormInput.placeholder = '';
+// });
+
+// mainFormInput.addEventListener("blur", function(){
+//     mainFormInput.placeholder = mainFormInputPlaceholder;
+// });
