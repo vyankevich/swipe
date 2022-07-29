@@ -114,8 +114,11 @@ body {
     background-color: none;
 }
 .container {
-    max-width: 1300px;
-    min-width: 1300px;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    max-width: 1330px;
+
+    /* min-width: 1300px; */
     margin: 0 auto;
 }
 
@@ -158,81 +161,6 @@ body {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     color: #6259EA;
-}
-
-@media (max-width: 767px){
-    body.lock{
-        overflow: hidden;
-    }
-    .header__burger{
-        display: block;
-        width: 30px;
-        height: 20px;
-        position: relative;
-        z-index: 15;
-        right: -450px;
-    }
-    .header__burger span{
-        position: absolute;
-        background-color: black;
-        left:0px;
-        width: 100%;
-        height: 2px;
-        top: 9px;
-        transition: all 0.3s ease 0s;
-    }
-    .header__burger:before,
-    .header__burger:after{
-        content:'';
-        background-color: black;
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        left: 0px;
-        transition: all 0.3s ease 0s;
-    }
-    .header__burger:before{
-        top: 0px;
-    }
-    .header__burger:after{
-        bottom: 0px;
-    }
-    .header__burger.active:before {
-        transform: rotate(45deg);
-        top: 9px;
-    }
-    .header__burger.active:after {
-        transform: rotate(-45deg);
-        bottom: 9px;
-    }
-    .header__burger.active span {
-        transform: scale(0);
-    }
-    .header__menu {
-        position: fixed;
-        top:-100%;
-        left: 0px;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        backdrop-filter: blur(5px);
-        padding: 80px 10px 20px 10px;
-        transition: all 0.4s ease 0s;
-    }
-    .header__menu.active {
-        top: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-    .header__list {
-        display: block;
-    }
-    .header__list li{
-        margin: 0 0 20px 0;
-    }
-
 }
 
 .buy-button {
@@ -326,7 +254,7 @@ body {
     position: absolute;
     z-index: -1;
     top: -200px;
-    left: 550px;
+    left: 520px;
 }
 #top__button {
     display: none;
@@ -401,7 +329,6 @@ body {
     z-index: 0;
 }
 .numbers__rightside {
-    padding-top: 72px;
     display: grid;
     grid-template-rows: 33.3333%;
     grid-template-columns: 50% 50%;
@@ -436,11 +363,12 @@ body {
     color: #2D2B5C;
 }
 .result__number {
-font-weight: 400;
-font-size: 80px;
-line-height: 112px;
-text-align: right;
-color: #2D2B5C;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 112px;
+    text-align: right;
+    color: #2D2B5C;
 }
 .products-created__body {
 
@@ -608,7 +536,7 @@ color: #2D2B5C;
     width: 1000px;
 }
 .technologies {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .container {
 }
@@ -623,6 +551,7 @@ color: #2D2B5C;
     border: 1px solid #E7E5FF;
 }
 .understand__body {
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -695,7 +624,7 @@ color: #2D2B5C;
     position: absolute;
     z-index: -1;
     top: 150px;
-    left: 1100px;
+    left: 1030px;
 }
 .price__body {
     z-index: 10px;
@@ -821,7 +750,7 @@ color: #2D2B5C;
 }
 .join-us__button {
     height: 60px;
-    width: 139px;
+    width: 140px;
     background: #6259EA;
     border-radius: 5px;
     color: white;
@@ -982,7 +911,7 @@ color: #2D2B5C;
     justify-content: center;
 }
 .review__body {
-    width: 820px;
+    width: 100%;
 }
 .reviewer__name {
     padding: 120px 0px 5px 0px;
@@ -1015,6 +944,7 @@ color: #2D2B5C;
 }
 .view-more__button {
     height: 60px;
+    width: 140px;
     background: #6259EA;
     border-radius: 5px;
 }
@@ -1031,8 +961,7 @@ color: #2D2B5C;
     max-width: 420px;
 }
 .press__img {
-    
-    width: 418px;
+    width: 100%;
 }
 .must-read-new {
     margin: 30px 0px 15px 0px;
@@ -1229,7 +1158,9 @@ color: #2D2B5C;
 }
 .image-slider__slide {
     text-align: center;
-
+}
+.social-img{
+    width: 100%;
 }
 .swiper-slide {
 }
@@ -1266,7 +1197,7 @@ color: #2D2B5C;
 .about__body {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 20% 20% 20%;
+    grid-template-columns: 35% 20% 20% 20%;
 }
 .logo2 {
     padding: 0 0 38px 0;
@@ -1319,6 +1250,8 @@ color: #2D2B5C;
     line-height: 25px;
     color: #FBFBFF;
     opacity: 0.6;
+    position: relative;
+    z-index: 3;
 }
 .menu3__link:hover {
     opacity: 1;
@@ -1330,7 +1263,7 @@ color: #2D2B5C;
     position: absolute;
     z-index: 1;
     top: -150px;
-    left: 1113px;
+    left: 1035px;
 }
 .line1 {
     margin: 40px 0;
