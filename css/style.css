@@ -228,7 +228,6 @@ body {
     border-radius: 5px;
     font-size: 18px;
     color: white;
-    margin-bottom: 100px;
 }
 .demo-button a {
     color: white;
@@ -239,6 +238,7 @@ body {
 .link__body {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 .red-cube {
 
@@ -511,7 +511,7 @@ body {
     z-index: -1;
 }
 .advantages {
-    margin-top: 140px;
+    margin-top: 100px;
 }
 .container {
 }
@@ -533,7 +533,7 @@ body {
 
 }
 .video__item {
-    width: 1000px;
+    width: 100%;
 }
 .technologies {
     margin-top: 100px;
@@ -784,6 +784,7 @@ body {
 .team__body {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
     align-items: center;
     justify-items: center;
 }
