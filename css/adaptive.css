@@ -676,6 +676,9 @@
         grid-template-columns: 1fr;
         justify-items: center;
     }
+    .social-img {
+        width: 80%;
+    }
     .footer{
         padding-top: 50px;
         height: 100%;
