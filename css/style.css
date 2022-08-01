@@ -853,7 +853,6 @@ body {
 }
 .talk {
     margin-top: 100px;
-    margin-bottom: 100px;
     background: #FBFBFF;
     position: relative;
     z-index: -5;
@@ -873,6 +872,7 @@ body {
     border-radius: 10px;
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 30px;
 }
 .green-pyramid-alone__img {
     position: absolute;
@@ -888,7 +888,6 @@ body {
 }
 .photo-socials__body {
     padding: 51px 0 0 110px;
-    width: 350px;
 }
 .person__photo {
     width: 200px;
@@ -926,13 +925,13 @@ body {
     color: #ABAABB;
 }
 .reviewer__text {
-    padding-top: 70px;
+    padding: 70px 20px 10px 0px;
     font-size: 30px;
     line-height: 42px;
     color: #2D2B5C;
 }
 .press {
-    margin: 39px 0px 100px 0px;
+    margin: 50px 0px 0px 0px;
 }
 .container {
 }
