@@ -332,7 +332,7 @@ body {
     display: grid;
     grid-template-rows: 33.3333%;
     grid-template-columns: 50% 50%;
-    justify-content: space-between;
+    align-items: center;
 }
 .numbers__line {
     display: inline-block;
@@ -363,7 +363,7 @@ body {
     color: #2D2B5C;
 }
 .result__number {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     font-weight: 400;
     font-size: 80px;
     line-height: 112px;

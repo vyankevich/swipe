@@ -491,7 +491,7 @@
         z-index: 10;
     }
     .numbers__line{
-        width: 400px;
+        width: 100%;
     }
     .happy__clients{
         font-size: 25px;
@@ -507,7 +507,7 @@
     }
     .result__number{
         font-size: 60px;
-        padding-top: 80px;
+        /* padding-top: 80px; */
     }
     .numbers__line2{
         margin-top: 240px;
@@ -796,9 +796,6 @@
     .section-title__font {
         font-size: 50px;
         line-height: 55px;
-    }
-    .numbers__line {
-        width: 350px;
     }
     .text__font {
         font-size: 16px;

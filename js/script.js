@@ -72,7 +72,7 @@ new Swiper('.press-slider', {
             spaceBetween: 10,
         }
     },
-})
+});
 
 function onEntry(entry) {
     entry.forEach(change => {
