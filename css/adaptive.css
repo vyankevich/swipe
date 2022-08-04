@@ -44,13 +44,13 @@
         column-gap: 230px;
         align-items: center;
     }
-    .features__ability{
-        padding: 0 0 20px 0;
-    }
     .items {
         display: grid;
         grid-template-columns: repeat(3,33%);
         padding: 0 0 0 0;
+    }
+    .items-slider{
+        display: none;
     }
     .cube {
         position: relative;
@@ -112,9 +112,9 @@
     .price__tag {
         padding: 45px 0 0 0;
         height: 88px;
-        width: 500px;
+        width: 100%;
         display: inline-grid;
-        grid-template-columns: 50% 30%;
+        grid-template-columns: 60% 40%;
         align-items: center;
     }
     .price {
@@ -308,7 +308,6 @@
     }
     .features__ability{
         height: 530px;
-        padding: 0 0 0 0;
     }
     .item1{
         width: 100%;
@@ -344,6 +343,10 @@
         grid-template-columns: 0;
         row-gap: 15px;
         padding-left: 100px;
+    }
+    .price__tag{
+        grid-template-columns: 60% 40%;
+        width: 100%;
     }
     .mirror__blue-circle{
         left:200px;
@@ -517,6 +520,51 @@
         grid-template-columns: 1fr;
         justify-items: center;
     }
+    .swipe { 
+        grid-area: swipe;
+        padding-bottom: 20px;
+    }
+    .menu1{
+        grid-area: menu1;
+    }
+    .menu2{
+        grid-area: menu2;
+    }
+    .menu3{
+        grid-area: menu3;
+    }
+    .little-spital{
+        left: 292px;
+        top: 0px;
+    }
+    .features{
+        height: 650px;
+    }
+    .features__ability{
+        height: 400px;
+    }
+    .items{
+        display: none;
+    }
+    .items-slider{
+        display: block;
+    }
+    .item__list ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .item__list1{
+        padding-top: 25px;
+    }
+    .item1{
+        display: block;
+    }
+    .item2{
+        display: block;
+    }
+    .item3{
+        display: block;
+    }
     .buy-button2{
         margin-top: 20px;
     }
@@ -564,18 +612,23 @@
     }
     .basic__body{
         width: 380px;
+        padding-right: 10px
     }
     .pro__body{
-        width: 380px;    
+        width: 380px;   
+        padding-right: 10px 
     }
     .price__tag{
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 60% 40%;
+        width: 100%;
     }
     .basic__body:hover{
         width: 380px;
+        padding-right: 10px
     }
     .pro__body:hover{
         width: 380px;    
+        padding-right: 10px
     }
     .yellow__washer{
         max-width: 80%;
@@ -605,6 +658,14 @@
     .faq{
         padding-top: 0px;
     }
+    .faq__titles {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .faq__text{
+        font-size: 25px;
+        line-height: 32px;
+    }
     .pink-circles{
         display: none;
     }
@@ -629,6 +690,8 @@
     }
     .reviewer__text {
         padding: 30px 10px 20px 10px;
+        font-size: 25px;
+        line-height: 35px;
     }
     .press__title{
         display: grid;
@@ -693,23 +756,7 @@
         "menu1 menu2 menu3"
        ;
     }
-    .swipe { 
-        grid-area: swipe;
-        padding-bottom: 20px;
-    }
-    .menu1{
-        grid-area: menu1;
-    }
-    .menu2{
-        grid-area: menu2;
-    }
-    .menu3{
-        grid-area: menu3;
-    }
-    .little-spital{
-        left: 292px;
-        top: 0px;
-    }
+    
     }
 /* stopppp */
 @media only screen and (max-width: 575px){

@@ -452,6 +452,9 @@ body {
     padding: 0 45px 0 30px;
     align-items: start;
 }
+.items-slider{
+    display: none;
+}
 .item1 {
     width: 358px;
     height: 433px;
@@ -666,9 +669,8 @@ body {
 .price__tag {
     padding: 45px 0 0 0;
     height: 88px;
-    width: 536px;
     display: grid;
-    grid-template-columns: 1fr 35%;
+    grid-template-columns: 60% 40%;
     align-items: center;
 }
 .price {
@@ -853,9 +855,7 @@ body {
 }
 .talk {
     margin-top: 100px;
-    background: #FBFBFF;
     position: relative;
-    z-index: -5;
 }
 .container {
 }
