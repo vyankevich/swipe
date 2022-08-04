@@ -30,6 +30,9 @@ new Swiper('.image-slider', {
     autoplay: {
         delay: 5000,
       },
+      pagination: {
+        el: '.swiper-pagination',
+      },
     loop: true,
     breakpoints: {
         500: {

@@ -723,9 +723,6 @@
     .recommend{
         padding-bottom: 0px;
     }
-    .form{
-        margin-top: 30px;
-    }
     .yellow-washer__img{
         max-width: 85%;
     }
@@ -742,6 +739,9 @@
     .social-img {
         width: 80%;
     }
+    .image-slider {
+        padding-bottom: 50px;
+    }
     .footer{
         padding-top: 50px;
         height: 100%;
@@ -756,11 +756,164 @@
         "menu1 menu2 menu3"
        ;
     }
-    
+    .line1 {
+        margin: 20px 0;
     }
-/* stopppp */
+}
 @media only screen and (max-width: 575px){
     .container {
         width: 100%;
+    }
+    .header__burger {
+        right: -20px;
+    }
+    .buy-button {
+        width: 120px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .business {
+        margin-top: 70px;
+    }
+    .business__title {
+        font-size: 50px;
+        line-height: 58px;
+        padding-bottom: 20px;
+    }
+    .section-subtitle__font{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .link__font{
+        font-size: 15px;
+    }
+    .sponsors {
+        padding: 30px 0 30px 0;
+    }
+    .numbers__body {
+        margin-top: 110px;
+    }
+    .section-title__font {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .numbers__line {
+        width: 350px;
+    }
+    .text__font {
+        font-size: 16px;
+    }
+    .result__number {
+        font-size: 50px;
+    }
+    .features {
+        margin-top: 50px;
+    }
+    .item__list1 {
+        padding-top: 0px;
+    }
+    .basic__body {
+        width: 340px;
+    }
+    .pro__body{
+        width: 340px;
+    }
+    .basic__body:hover{
+        width: 340px;
+    }
+    .pro__body:hover{
+        width: 340px;
+    }
+    .buy-now__price-tag {
+        height: 50px;
+        width: 120px;
+    }
+    .buy-now__price-tag a{
+        font-size: 15px;
+    }
+    .price {
+        font-size: 45px;
+    }
+    .team {
+        margin: 70px 0px;
+    }
+    .join-us__button {
+        height: 50px;
+        width: 120px;
+    }
+    .see-all__button {
+        height: 50px;
+        width: 180px;
+    }
+    .person__name{
+        font-size: 18px;
+    }
+    .person__prof {
+        font-size: 16px;
+    }
+    .team {
+        margin: 50px 0px;
+    }
+    .faq__titles {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .line__faq {
+        margin: 25px 0 15px 0;
+    }
+    .talk {
+        margin-top: 70px;
+    }
+    .pink-pyramid-alone__img {
+        left: 170px;
+        top: 550px;
+    }
+    .green-pyramid-alone__img {
+        width: 110%;
+        top: -300px;
+        left: -150px;
+    }
+    .press__title{
+        padding-bottom: 30px;
+    }
+    .link__body{
+        margin-top: 30px;
+    }
+    .yellow-washer__img{
+        top: -150px;
+    }
+    .support{
+        font-size: 16px;
+    }
+    .faq__recommendation {
+        max-width: 350px;
+        height: 100%;
+    }
+    .blue-circle__img{
+        max-width: 40%;
+        left: 190px;
+    }
+    .name{
+        max-width: 350px;
+    }
+    .email{
+        max-width: 350px;
+    }
+    .message{
+        max-width: 350px;
+    }
+    .submit__button{
+        max-width: 350px;
+    }
+    .go-to-inst__button {
+        height: 50px;
+        width: 180px;
+    }
+    .little-spital {
+        left: 256px;
+    }
+    .footer {
+        padding-top: 30px;
+        height: 70%;
     }
 }
