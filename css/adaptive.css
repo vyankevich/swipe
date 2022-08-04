@@ -569,8 +569,8 @@
         margin-top: 20px;
     }
     .cylinder{
-        top: -690px;
-        left: 240px;
+        left: 195px;
+        top: -550px;
     }
     .advantages__title {
         padding-bottom: 50px;
@@ -914,6 +914,6 @@
     }
     .footer {
         padding-top: 30px;
-        height: 70%;
+        height: 80%;
     }
 }
